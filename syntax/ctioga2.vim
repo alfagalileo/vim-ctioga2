@@ -10,7 +10,7 @@ syntax match ctiogaOperator "\v/"
 
 "color constants
 syntax keyword ctiogaKeyword AliceBlue AntiqueWhite Aqua Aquamarine Avocado Azure
-syntax Keyword ctiogaKeyword Beige Black BlanchedAlmond Blue BlueGreen BlueViolet BrickRed BrickBlue BrightBlue BrightPink Brown Burgundy BurlyWood
+syntax keyword ctiogaKeyword Beige Black BlanchedAlmond Blue BlueGreen BlueViolet BrickRed BrickBlue BrightBlue BrightPink Brown Burgundy BurlyWood
 syntax keyword ctiogaKeyword CadetBlue Cement Chartreuse Chiffon Chocolate Coral CornflowerBlue Cornsilk Crimson Cyan
 syntax keyword ctiogaKeyword DarkBlue DarkChocolate DarkCyan DarkGoldenrod DarkGray DarkGreen DarkGrey DarkKhaki DarkLavender DarkMagenta DarkOliveGreen DarkOrange DarkOrchid DarkPeriwinkle DarkPurpleBlue DarkRed DarkRoyalBlue DarkSalmon DarkSeaGreen DarkSlateBlue DarkSlateGray DarkSlateGrey DarkSmoke DarkTurquoise DarkViolet DeepPink DeepSkyBlue DimGray DimGrey DodgerBlue
 syntax keyword ctiogaKeyword FireBrick FloralWhite ForestGreen Fuchsia
