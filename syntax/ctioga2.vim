@@ -1,5 +1,5 @@
 if exists("b:current_syntax")
-	finish
+    finish
 endif
 
 syntax match ctiogaComment "\v#.*$"
@@ -8,7 +8,8 @@ syntax match ctiogaOperatot "\v:"
 "syntax match ctiogaOperator "\v-"
 syntax match ctiogaOperator "\v/"
 
-syntax keyword ctiogaKeyword Wheat White Black Blue Red Aquamarine
+syntax keyword ctiogaKeyword AliceBlue AntiqueWhite Aqua Aquamarine Avocado
+Azure
 syn keyword ctiogaKeyword auto no tl tr br bottom
 
 syntax keyword ctiogaFunction arrow auto axes
@@ -19,15 +20,15 @@ syntax keyword ctiogaFunction error eval
 syntax keyword ctiogaFunction fill frame
 syntax keyword ctiogaFunction include inside
 syntax keyword ctiogaFunction legend line load
-syntax keyword ctiogaFunction map margins marker math minor 
+syntax keyword ctiogaFunction map margins marker math minor
 syntax keyword ctiogaFunction number
 syntax keyword ctiogaFunction on
 syntax keyword ctiogaFunction page path plot preamble
-syntax keyword ctiogaFunction region 
+syntax keyword ctiogaFunction region
 syntax keyword ctiogaFunction samples scale set side size split style
 syntax keyword ctiogaFunction text ticks title transparency
-syntax keyword ctiogaFunction xlabel xrange  
-syntax keyword ctiogaFunction utf8 c\-a 
+syntax keyword ctiogaFunction xlabel xrange
+syntax keyword ctiogaFunction utf8 c\-a
 syntax keyword ctiogaFunction viewer
 syntax keyword ctiogaFunction ylabel yrange
 syntax keyword ctiogaFunction width
@@ -43,4 +44,4 @@ highlight link ctiogaComment Comment
 highlight link ctiogaString String
 highlight link ctiogaOperator Operator
 highlight link ctiogaNumber Number
-let b:current_syntax="ctioga2" 
+let b:current_syntax="ctioga2"
