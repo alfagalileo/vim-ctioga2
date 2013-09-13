@@ -63,7 +63,7 @@ syntax match ctiogaNumber '\d\+'
 
 highlight link ctiogaFunction Function
 highlight link ctiogaKeyword Keyword
-highlight link ctiogaConstant Constant
+hi def link ctiogaConstant Constant
 highlight link ctiogaComment Comment
 highlight link ctiogaString String
 highlight link ctiogaOperator Operator
